@@ -16,7 +16,9 @@ let codigo = `
     <div></div>
 `;
 
-console.log('codigo', codigo);
+console.log('codigo', codigo);  
+
+
 
 let curso = 'TypeScript';
 let saludo2 = `Bienvenidos al curso de ${curso}`;

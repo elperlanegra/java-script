@@ -1,5 +1,5 @@
--   El DOM
--   document
+#   El DOM
+##   document
     -   document.doctype
     -   document.documentEement
     -   document.head
@@ -11,6 +11,7 @@
     -   document.getSelection() "toString()"
     -   document.scripts
     -   document.styleSheets
+
 -   Nodos
 -   nodeName
 -   nodeType

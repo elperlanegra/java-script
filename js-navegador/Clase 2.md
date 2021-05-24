@@ -1,0 +1,39 @@
+-   Eventos
+-   onEvent
+-   addEventListener()
+-   handlers
+-   Objeto event
+-   Referencia de todos los eventos
+    "https://developer.mozilla.org/en-US/docs/Web/Events"
+-   Eventos de mouse
+-   click
+-   dblclick
+-   mouseenter
+-   mouseleave
+-   contextmenu
+-   mousedown
+-   mouseup
+-   mousemove
+-   Eventos de teclado
+-   keydown
+-   keyup
+-   keypress
+-   Eventos de formulario
+-   submit
+-   change
+-   focus
+-   blur
+-   reset
+-   Eventos de DOM
+-   DOMContentloaded
+-   Eventos del navegador
+-   load
+-   scroll
+-   resize
+-   Eventos multimedia
+    "https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media\_events"
+-   play
+-   pause
+-   Propagación
+-   Delegación de eventos
+

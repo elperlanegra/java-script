@@ -14,5 +14,4 @@ const persona: Persona = {
     name: "Carlos",
     lastName: "Duarte",
     dni: 123534
-
 }

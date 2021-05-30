@@ -26,5 +26,5 @@ class Perro {
 
 let x = new Animal();
 let y = new Perro();
-x = y;  //Error si NO descomentan el metodo comer, es decir si la clase perro no implementa comer
+// x = y;  //Error si NO descomentan el metodo comer, es decir si la clase perro no implementa comer
 y = x; //Esta asignacion es posible incluso aunque ambos objetos sean instanciados de clases diferentes

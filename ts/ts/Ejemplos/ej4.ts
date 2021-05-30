@@ -7,7 +7,7 @@
 */
  
 // JavaScript
-function suma( a, b ){
+function sumar( a, b ){
   return (a + b) 
 }
 

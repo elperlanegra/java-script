@@ -16,7 +16,7 @@ class Humano {
         this.name = name
     }
     // Key hace referencia a sayName
-    @log
+    //@log
     sayMyName() {
         console.log(this.name)
     }

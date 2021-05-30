@@ -1,0 +1,1 @@
+                    Definir una interface llamada Punto que declare un método llamado imprimir. Luego declarar dos clases que la implementen.

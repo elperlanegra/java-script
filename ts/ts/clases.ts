@@ -38,7 +38,7 @@ const trasporte: Trasporte = new Trasporte(20, 'Suelo')
 class Auto extends Trasporte {
     private cantidadDePuertas: number
 
-    constructor(velocidad: number, formaDeMovilidad: string, cantidadDePuertas) {
+    constructor(velocidad: number, formaDeMovilidad: string, cantidadDePuertas: number) {
         super(velocidad, formaDeMovilidad)
         this.cantidadDePuertas = cantidadDePuertas
     }
@@ -58,3 +58,5 @@ class Auto extends Trasporte {
 }
 
 const auto: Auto = new Auto(20, 'Suelo', 4)
+
+console.log(auto)

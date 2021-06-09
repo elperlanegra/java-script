@@ -39,17 +39,16 @@ console.log(typeof symbol1);
 
 console.log(symbol1 === symbol2);
 
+console.log("Datos primitivos");
 
-console.log("Datos primitivos")
-
-let arr = []
+let arr = [];
 
 const datos = {
-    name: "Manuel",
-    lastName: "Duarte",
-    age: 24,
-    direction: {
-        city: "Bilwi",
-        country: "Nicaragua"
-    }
-}
+  name: "Manuel",
+  lastName: "Duarte",
+  age: 24,
+  direction: {
+    city: "Bilwi",
+    country: "Nicaragua",
+  },
+};

@@ -13,9 +13,9 @@ let numero2:number;
 numero2 = 20;
 
 // Cadenas de caracteres
-let nombre:string = "Sergio";
-let apellido: string = 'Agamez';
-let segundoApellido: string = 'Negrete';
+let nombre:string = "Manuelito";
+let apellido: string = 'Duarte';
+let segundoApellido: string = 'Messi';
 
 
 let nombreCompleto:string = `${nombre} ${apellido} ${segundoApellido}`;
@@ -23,7 +23,7 @@ let nombreCompleto:string = `${nombre} ${apellido} ${segundoApellido}`;
 
 // Arreglos
 
-let nombres:string[] = ['Sergio', 'Maria', 'Pedro'];
+let nombres:string[] = ['Juan', 'Maria', 'Pedro'];
 
 nombres.push('5');
 

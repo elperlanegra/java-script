@@ -5,23 +5,23 @@ OBJETOS: Es una colección de propiedades y métodos
 var object = {
 
 	// Una propiedad es una asociación entre un nombre y un valor. 
-	nombre:"Juan",
-	edad:31,
+	nombre: "Juan",
+	edad: 31,
 	// El método es una función dentro de un objeto.
-	descripcion: function(){
+	descripcion: function () {
 
-		console.log("Su nombre es "+object.nombre+" y tiene "+object.edad+" años.")
+		console.log("Su nombre es " + object.nombre + " y tiene " + object.edad + " años.")
 
 	},
-	saludar: function(saludo){
+	saludar: function (saludo) {
 
-		console.log(saludo+" "+object.nombre);
+		console.log(saludo + " " + object.nombre);
 	}
 
 }
 
-console.log("Nombre",object.nombre)
-console.log("Edad",object.edad)
+console.log("Nombre", object.nombre)
+console.log("Edad", object.edad)
 object.descripcion();
 object.saludar("Hola");
 

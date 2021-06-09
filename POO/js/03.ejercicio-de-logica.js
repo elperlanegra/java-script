@@ -11,16 +11,16 @@ A -> 4
 
 var a = {
 
-	A:0,
-	B:0,
-	C:0,
-	D:0,
-	resultado: function(){
+	A: 0,
+	B: 0,
+	C: 0,
+	D: 0,
+	resultado: function () {
 
-		if(a.C > a.B &&
-		   a.D > a.B &&
-		   a.D > a.C &&
-		   a.D < a.A){
+		if (a.C > a.B &&
+			a.D > a.B &&
+			a.D > a.C &&
+			a.D < a.A) {
 
 			return true;
 		}
@@ -28,14 +28,14 @@ var a = {
 		return false;
 
 	},
-	intervalo: setInterval(function(){
+	intervalo: setInterval(function () {
 
-		a.A = Math.ceil(Math.random()*4)
-		a.B = Math.ceil(Math.random()*4)
-		a.C = Math.ceil(Math.random()*4)
-		a.D = Math.ceil(Math.random()*4)
+		a.A = Math.ceil(Math.random() * 4)
+		a.B = Math.ceil(Math.random() * 4)
+		a.C = Math.ceil(Math.random() * 4)
+		a.D = Math.ceil(Math.random() * 4)
 
-		if(a.resultado()){
+		if (a.resultado()) {
 
 			clearInterval(a.intervalo);
 			console.log("atleta A", a.A)
@@ -45,7 +45,7 @@ var a = {
 
 		}
 
-	},10)
+	}, 10)
 
 }
 
@@ -63,22 +63,22 @@ Willy | edad: joven (1) | velocidad: rapido (2) | tono: oscuro (2)
 
 var b = {
 
-	Mac: {edad:0, velocidad:0, tono:0 },
-	Smith: {edad:0, velocidad:0, tono:0 },
-	Jack: {edad:0, velocidad:0, tono:0 },
-	Willy: {edad:0, velocidad:0, tono:0 },
-	resultado: function(){
+	Mac: { edad: 0, velocidad: 0, tono: 0 },
+	Smith: { edad: 0, velocidad: 0, tono: 0 },
+	Jack: { edad: 0, velocidad: 0, tono: 0 },
+	Willy: { edad: 0, velocidad: 0, tono: 0 },
+	resultado: function () {
 
-		if(b.Mac.tono > b.Smith.tono &&
-		   b.Mac.velocidad > b.Jack.velocidad &&
-		   b.Mac.edad > b.Jack.edad &&
-		   b.Willy.velocidad > b.Jack.velocidad &&
-		   b.Mac.edad > b.Willy.edad &&
-		   b.Mac.edad > b.Smith.edad &&
-		   b.Willy.tono > b.Smith.tono &&
-		   b.Smith.velocidad > b.Jack.velocidad &&
-		   b.Jack.tono > b.Smith.tono
-		   ){
+		if (b.Mac.tono > b.Smith.tono &&
+			b.Mac.velocidad > b.Jack.velocidad &&
+			b.Mac.edad > b.Jack.edad &&
+			b.Willy.velocidad > b.Jack.velocidad &&
+			b.Mac.edad > b.Willy.edad &&
+			b.Mac.edad > b.Smith.edad &&
+			b.Willy.tono > b.Smith.tono &&
+			b.Smith.velocidad > b.Jack.velocidad &&
+			b.Jack.tono > b.Smith.tono
+		) {
 
 			return true;
 		}
@@ -86,26 +86,26 @@ var b = {
 		return false;
 
 	},
-	intervalo: setInterval(function(){
+	intervalo: setInterval(function () {
 
-		b.Mac.edad = Math.ceil(Math.random()*2);
-		b.Mac.velocidad = Math.ceil(Math.random()*2);
-		b.Mac.tono = Math.ceil(Math.random()*2);
+		b.Mac.edad = Math.ceil(Math.random() * 2);
+		b.Mac.velocidad = Math.ceil(Math.random() * 2);
+		b.Mac.tono = Math.ceil(Math.random() * 2);
 
-		b.Smith.edad = Math.ceil(Math.random()*2);
-		b.Smith.velocidad = Math.ceil(Math.random()*2);
-		b.Smith.tono = Math.ceil(Math.random()*2);
+		b.Smith.edad = Math.ceil(Math.random() * 2);
+		b.Smith.velocidad = Math.ceil(Math.random() * 2);
+		b.Smith.tono = Math.ceil(Math.random() * 2);
 
-		b.Jack.edad = Math.ceil(Math.random()*2);
-		b.Jack.velocidad = Math.ceil(Math.random()*2);
-		b.Jack.tono = Math.ceil(Math.random()*2);
+		b.Jack.edad = Math.ceil(Math.random() * 2);
+		b.Jack.velocidad = Math.ceil(Math.random() * 2);
+		b.Jack.tono = Math.ceil(Math.random() * 2);
 
-		b.Willy.edad = Math.ceil(Math.random()*2);
-		b.Willy.velocidad = Math.ceil(Math.random()*2);
-		b.Willy.tono = Math.ceil(Math.random()*2);
+		b.Willy.edad = Math.ceil(Math.random() * 2);
+		b.Willy.velocidad = Math.ceil(Math.random() * 2);
+		b.Willy.tono = Math.ceil(Math.random() * 2);
 
 
-		if(b.resultado()){
+		if (b.resultado()) {
 
 			clearInterval(b.intervalo);
 			console.log("Caballo de Mac", b.Mac);
@@ -116,25 +116,25 @@ var b = {
 		}
 
 
-	},1)
+	}, 1)
 
 }
 
 
 /*=============================================
-CASO 3. LOS CUATRO PERROS. 
+CASO 3. LOS CUATRO PERROS.
 
 Tenemos cuatro perros: un galgo, un dogo, un alano y un podenco. Éste último come más que el galgo; el alano come más que el galgo y menos que el dogo, pero éste come más que el podenco. ¿Cuál de los cuatro perros come menos?.
 =============================================*/
 
 /*=============================================
-CASO 4. SEIS AMIGOS DE VACACIONES. 
+CASO 4. SEIS AMIGOS DE VACACIONES.
 
 Seis amigos desean pasar sus vacaciones juntos y deciden, cada dos, utilizar diferentes medios de transporte; sabemos que Alejandro no utiliza el coche ya que éste acompaña a Benito que no va en avión. Andrés viaja en avión. Si Carlos no va acompañado de Darío ni hace uso del avión, podría Vd. decirnos en qué medio de transporte llega a su destino Tomás.
 =============================================*/
 
 /*=============================================
-CASO 5. SILENCIO. 
+CASO 5. SILENCIO.
 
 Si Ángela habla más bajo que Rosa y Celia habla más alto que Rosa, ¿habla Ángela más alto o más bajo que Celia?
 =============================================*/

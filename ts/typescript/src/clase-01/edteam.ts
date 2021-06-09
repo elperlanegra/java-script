@@ -24,3 +24,6 @@ let curso = 'TypeScript';
 let saludo2 = `Bienvenidos al curso de ${curso}`;
 console.log('saludo', saludo2);
 
+
+let nameCurso = "Java"
+let nameTaller = "Crud Java"

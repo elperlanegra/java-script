@@ -1,28 +1,22 @@
-
-
 // Interfaces
 
 interface Vehiculo {
-
     tipo: string;
     capacidad: number;
-    avanzar(funciona:boolean):string;
-
+    avanzar(funciona: boolean): string;
 }
 
-let carro:Vehiculo = {
-
-    tipo: 'Terrestre',
+let carro: Vehiculo = {
+    tipo: "Terrestre",
     capacidad: 5,
-    avanzar(estaFuncionando:boolean){
-        if(estaFuncionando){
-            return 'Estoy avanzando'
-        } else{
-            return 'No funciona'
+    avanzar(estaFuncionando: boolean) {
+        if (estaFuncionando) {
+            return "Estoy avanzando";
+        } else {
+            return "No funciona";
         }
-    }
-
-}
+    },
+};
 
 // interface Vehiculo {
 
@@ -45,11 +39,11 @@ let carro:Vehiculo = {
 // }
 
 interface Correr {
-    ():string
+    (): string;
 }
 
-let quieroCorrer:Correr;
+let quieroCorrer: Correr;
 
-quieroCorrer = function(){
-    return 'Si quiero correr'
-}
+quieroCorrer = function () {
+    return "Si quiero correr";
+};

@@ -3,14 +3,10 @@
 
 // Namespaces
 
-Interacciones.saludo2()
-
+Interacciones.saludo2();
 
 Interacciones.despedida1();
 
+let persona1 = new Interacciones.Persona("Juan");
 
-
-let persona1 = new Interacciones.Persona('Juan');
-
-
-console.log(persona1)
+console.log(persona1);

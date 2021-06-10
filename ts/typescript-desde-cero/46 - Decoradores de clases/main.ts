@@ -1,22 +1,12 @@
-
-
 // Decoradores
 
-
-
-function hola( constructor:Function ){
-
+function hola(constructor: Function) {
     constructor();
-
 }
 
-
 @hola
-class Carro{
-
-    constructor(){
-        console.log('Hola carro');
+class Carro {
+    constructor() {
+        console.log("Hola carro");
     }
-
-
 }

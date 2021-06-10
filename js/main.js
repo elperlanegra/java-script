@@ -72,3 +72,18 @@ let user2 = new User('Manuel', 'Duarte')
 // console.log(user2)
 
 
+class Factura {
+    constructor(numero, cliente, divisa, subtotal, IVA) {
+        this.numero = numero;
+        this.cliente = cliente;
+        this.divisa = divisa;
+        this.subtotal = subtotal;
+        this.IVA = IVA;
+    }
+}
+
+const factura1 = new Factura(201, "Transportes SA", "eur", 542, 113);
+const factura2 = new Factura(202, "Mudanzas SA", "eur", 100, 21);
+
+console.log("La factura " + factura1.numero + " está en divisa " + factura1.divisa);
+// La factura 201 está en divisa eur

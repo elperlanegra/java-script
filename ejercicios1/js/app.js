@@ -23,10 +23,10 @@ let jugador = {
     ciudad: 'Rosario',
     estadio: 'Bombonera',
     club: {
-        name: 'Nuwels',
-        fundacion: '1500',
-        dorsal: 10
-    }
+      name: 'Nuwels',
+      fundacion: '1500',
+      dorsal: 10,
+    },
   },
 };
 

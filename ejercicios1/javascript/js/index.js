@@ -1,8 +1,8 @@
-const nameCourse = "JavaScript";
+const nameCourse = 'JavaScript';
 
-console.log("hello world");
+console.log('hello world');
 
-console.log("Curso de " + nameCourse);
+console.log('Curso de ' + nameCourse);
 
 // Tipos de datos en JS
 // string:  es una cadena de caractere. 'a' = caracter 'Hola Mundo' = string
@@ -19,14 +19,14 @@ console.log("Curso de " + nameCourse);
 
 // Mi primera variable
 
-var miPrimeraVariable = "var";
+var miPrimeraVariable = 'var';
 console.log(miPrimeraVariable);
 
-let miSegundaVariable = "Let";
+let miSegundaVariable = 'Let';
 console.log(miSegundaVariable);
 
 // Mutabilidad
-miSegundaVariable = "Cambio de valor en el string";
+miSegundaVariable = 'Cambio de valor en el string';
 console.log(miSegundaVariable);
 
 // Boolean
@@ -52,7 +52,7 @@ console.log(typeof nulo);
 // Es una agrupación de datos
 // Hacen sentido entre si
 
-console.log("#############################################");
+console.log('#############################################');
 
 // Objeto vacio
 const miPrimerObjeto = {};
@@ -60,24 +60,24 @@ const miPrimerObjeto = {};
 // Objeto
 const miOBjeto = {
   // Los objeto no tienen variables tienen Propiedades
-  name: "Carlos",
-  lastName: "Duarte",
+  name: 'Carlos',
+  lastName: 'Duarte',
   age: 20,
   direction: {
-    street: "Avenida rosales",
-    barrio: "Spanistown",
-    city: "Nicaragua",
-    country: "Bilwi",
+    street: 'Avenida rosales',
+    barrio: 'Spanistown',
+    city: 'Nicaragua',
+    country: 'Bilwi',
   },
 };
 
 console.log(miOBjeto); // Este imprimi todo el objeto
 console.log(miOBjeto.direction.street); // De esta manera podemos ir directamente a una de las propiedades
 
-console.log("###################### Arreglos ######################");
+console.log('###################### Arreglos ######################');
 // Arreglos
 const arrEmpty = [];
-const arrConDatos = [1, 2, 3, "Manuel", miOBjeto];
+const arrConDatos = [1, 2, 3, 'Manuel', miOBjeto];
 
 // console.log(arrEmpty);
 // console.log(arrConDatos);

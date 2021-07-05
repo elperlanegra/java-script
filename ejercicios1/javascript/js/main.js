@@ -25,7 +25,7 @@ class Carro {
   }
 }
 
-let miCarro = new Carro("Mazda", 2021, true);
+let miCarro = new Carro('Mazda', 2021, true);
 // console.log(miCarro)
 
 class Persona {
@@ -44,7 +44,7 @@ class Persona {
   }
 }
 
-let person = new Persona("Manuel", "Duarte", 20, "Bilwi", "manuel@duarte.com");
+let person = new Persona('Manuel', 'Duarte', 20, 'Bilwi', 'manuel@duarte.com');
 // console.log(person)
 
 /**
@@ -62,8 +62,8 @@ class User {
   }
 }
 
-let user1 = new User("Jose", "Moncada");
-let user2 = new User("Manuel", "Duarte");
+let user1 = new User('Jose', 'Moncada');
+let user2 = new User('Manuel', 'Duarte');
 
 // console.log(user1)
 // console.log(user2)
@@ -78,10 +78,8 @@ class Factura {
   }
 }
 
-const factura1 = new Factura(201, "Transportes SA", "eur", 542, 113);
-const factura2 = new Factura(202, "Mudanzas SA", "eur", 100, 21);
+const factura1 = new Factura(201, 'Transportes SA', 'eur', 542, 113);
+const factura2 = new Factura(202, 'Mudanzas SA', 'eur', 100, 21);
 
-console.log(
-  "La factura " + factura1.numero + " está en divisa " + factura1.divisa
-);
+console.log('La factura ' + factura1.numero + ' está en divisa ' + factura1.divisa);
 // La factura 201 está en divisa eur

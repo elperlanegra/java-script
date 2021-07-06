@@ -5,15 +5,15 @@
 class Producto {
 
 
-    constructor(private _precio:number){
-        
+    constructor(private _precio: number) {
+
     }
 
-    get precio():number{
+    get precio(): number {
         return this._precio;
     }
 
-    set precio(nuevoPrecio:number){
+    set precio(nuevoPrecio: number) {
         this._precio = nuevoPrecio;
     }
 

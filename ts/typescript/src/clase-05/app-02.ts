@@ -2,7 +2,7 @@
 // package.json
 // npm init -y
 // npm install lodash --save
-import {random} from 'lodash';
+import { random } from 'lodash';
 
 function numeroAleatorio(a: number, b: number) {
     return random(a, b);

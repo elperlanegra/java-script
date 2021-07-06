@@ -1,4 +1,4 @@
-export {};
+export { };
 // ATRIBUTOS Y METODOS ESTATICOS/ STATIC
 
 enum MisCursos {
@@ -9,7 +9,7 @@ enum MisCursos {
 
 class Curso {
     public static cursosDisponibles: MisCursos[] = [MisCursos.JavaScript, MisCursos.TypeScript];
-    constructor(private readonly _id: number, private readonly _nombre: string) {}
+    constructor(private readonly _id: number, private readonly _nombre: string) { }
 
     get id() {
         return this._id;
@@ -25,7 +25,7 @@ class Curso {
 
 abstract class Escuela {
     protected cursos: Curso[] = [];
-    constructor(protected _id: number, protected _nombre: string){}
+    constructor(protected _id: number, protected _nombre: string) { }
     get id() {
         return this._id;
     }

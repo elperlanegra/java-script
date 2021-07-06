@@ -1,4 +1,4 @@
-export {};
+export { };
 // ENUMERADOS EN TYPESCRIPT
 
 // type Curso: string | number;

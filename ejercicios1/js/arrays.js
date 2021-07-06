@@ -24,22 +24,22 @@ for (var i = 0; i < frutas.length; i++) {
 // Recorriendo el array con un while
 var n = 0;
 while (n < frutas.length) {
-//   console.log(frutas[n]);
+  //   console.log(frutas[n]);
   n++;
 }
 
 var num1 = 5;
 var num2 = 7;
-if(num1 < num2){
-    console.log("7 es mayor")
-}else{
-    console.log("5 es mayor")
+if (num1 < num2) {
+  console.log('7 es mayor');
+} else {
+  console.log('5 es mayor');
 }
 
 let edad = 18;
 
-if(edad < 12){
-    console.log("si")
-}else{
-    console.log("no")
+if (edad < 12) {
+  console.log('si');
+} else {
+  console.log('no');
 }

@@ -1,4 +1,4 @@
-export {}; // Modulo en TS
+export { }; // Modulo en TS
 // ALIAS PARA TIPOS DE DATOS EN TS, PARTE II
 let curso: string = 'TypeScript';
 // Cursos codigo: JavaScript = 1, TypeScript = 2
@@ -11,7 +11,7 @@ let cursoNuevo: Curso;
 cursoNuevo = 'JavaScript';
 cursoNuevo = 2; // TypeScript
 
-function getCurso() : Curso {
+function getCurso(): Curso {
     // return 'JavaScript';
     return 1;
 }

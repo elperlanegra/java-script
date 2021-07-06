@@ -1,8 +1,8 @@
-export {};
+export { };
 // MIEMBROS PRIVADO
 
 class Curso {
-    constructor(private id: number, private nombre: string) {}
+    constructor(private id: number, private nombre: string) { }
 }
 
 class EscuelaDigital {
@@ -10,7 +10,7 @@ class EscuelaDigital {
     private cursos: Curso[] = [];
 
     // Funcion que nos permite crear objetos
-    constructor(private nombre: string) {}
+    constructor(private nombre: string) { }
 
     public agregarCurso(curso: Curso) {
         this.cursos.push(curso);

@@ -7,7 +7,7 @@ estaInscrito = true;
 // estaInscrito = 2; NO es valido
 
 function tieneDescuento(curso) {
-    if(curso === 'typescript')
+    if (curso === 'typescript')
         return true;
     return false;
 }
@@ -21,7 +21,7 @@ let cantidadEstudiantes: number;
 cantidadEstudiantes = 120;
 
 function getCantidadEstudiantes(curso): number {
-    if(curso === 'typescript')
+    if (curso === 'typescript')
         return 100;
     return 0;
 }
@@ -69,7 +69,7 @@ let desconocido2: any = 2;
 // Tipo: Void
 let vacio: void;
 function mostrarContenido(curso: string): void {
-    const mensaje = curso? `Bienvenido al curso ${curso}`: 'Suscribete al curso!';
+    const mensaje = curso ? `Bienvenido al curso ${curso}` : 'Suscribete al curso!';
     console.log('mensaje', mensaje);
 }
 
@@ -86,10 +86,10 @@ function retornaError(error: string): never {
 // retornaError('Valor inesperado');
 
 function cicloInfinito(): never {
-    while(true) {
+    while (true) {
     }
 }
- 
+
 // Tipo: Null y Undefined
 
 let variableUndefined: undefined = undefined;
@@ -109,7 +109,7 @@ console.log('variableSinValor', variableSinValor);
 // Funciones en TypeScript
 
 function saludo(nombre?: string): string {
-    if(nombre)
+    if (nombre)
         return 'Hola ' + nombre;
     return '¡Hola!'
 }

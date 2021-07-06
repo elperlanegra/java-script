@@ -8,5 +8,5 @@
 // miFavorito(5);
 
 
-let conjunto:Array<string> = ['Sergio', 'Luis']
+let conjunto: Array<string> = ['Sergio', 'Luis']
 

@@ -2,41 +2,41 @@
 // Tipos de datos
 
 // Booleanos
-let esBueno:boolean = true;
-let esMalo:boolean = false;
-let esNeutral:boolean;
+let esBueno: boolean = true;
+let esMalo: boolean = false;
+let esNeutral: boolean;
 
 // Numeros
-let numero:number = 10;
-let numero2:number;
+let numero: number = 10;
+let numero2: number;
 
 numero2 = 20;
 
 // Cadenas de caracteres
-let nombre:string = "Sergio";
+let nombre: string = "Sergio";
 let apellido: string = 'Agamez';
 let segundoApellido: string = 'Negrete';
 
 
-let nombreCompleto:string = `${nombre} ${apellido} ${segundoApellido}`;
+let nombreCompleto: string = `${nombre} ${apellido} ${segundoApellido}`;
 
 
 // Arreglos
 
-let nombres:string[] = ['Sergio', 'Maria', 'Pedro'];
+let nombres: string[] = ['Sergio', 'Maria', 'Pedro'];
 
 nombres.push('5');
 
 // Tuplas
 
-let arreglo:[boolean, string] = [true, 'Hola'];
+let arreglo: [boolean, string] = [true, 'Hola'];
 
 
 // Enums
 
 enum Roles { Admin = 1, User, Guest };
 
-let usuario:Roles = Roles.Guest;
+let usuario: Roles = Roles.Guest;
 
 console.log(usuario);
 
@@ -50,35 +50,35 @@ console.log(usuario);
 
 // }
 
-let identificacion:undefined = undefined;
-let identificacion2:null = null;
+let identificacion: undefined = undefined;
+let identificacion2: null = null;
 
 
 // Never
 
-function cicloInfinito():never{
+function cicloInfinito(): never {
 
-        while(true){
-            //
-        }
+    while (true) {
+        //
+    }
 
 }
 
 
 // Any
 
-let variable:any = 'hola mundo';
+let variable: any = 'hola mundo';
 
 (<string>variable).toUpperCase();
 
 
 // Funciones
 
-function saludar(nombre:string){
+function saludar(nombre: string) {
     return 'Hola ' + nombre;
 }
 
-function alertar(){
+function alertar() {
     alert('Esto es una alerta');
 }
 
@@ -89,7 +89,7 @@ miFuncion1 = alertar;
 
 // Funciones - Parámetros obligatorios
 // function crearPersona(nombre:string, apellido:string){
-    
+
 //     return {
 //         nombre: nombre,
 //         apellido: apellido
@@ -102,8 +102,8 @@ miFuncion1 = alertar;
 
 // Funciones - Parámetros opcionales
 
-function crearPersona(nombre:string, apellido?:string){
-    
+function crearPersona(nombre: string, apellido?: string) {
+
     return {
         nombre,
         apellido
@@ -126,10 +126,10 @@ persona2 = {
     edad: 21
 }
 
-let persona3: {nombre:string, edad:number, decirEdad:() => string} = {
+let persona3: { nombre: string, edad: number, decirEdad: () => string } = {
     nombre: 'Juan',
     edad: 20,
-    decirEdad(){
+    decirEdad() {
         return 'Mi edad es ' + this.edad;
     }
 }
@@ -139,18 +139,18 @@ let persona3: {nombre:string, edad:number, decirEdad:() => string} = {
 
 type Persona = {
 
-    nombre:string;
-    edad:number;
-    altura?:number;
-    decirNombre:() => string;
+    nombre: string;
+    edad: number;
+    altura?: number;
+    decirNombre: () => string;
 
 }
 
-let persona4:Persona = {
+let persona4: Persona = {
 
     nombre: 'Luis',
     edad: 24,
-    decirNombre(){
+    decirNombre() {
         return this.nombre;
     }
 

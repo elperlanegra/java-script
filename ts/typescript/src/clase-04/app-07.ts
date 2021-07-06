@@ -1,10 +1,10 @@
-export {};
+export { };
 // HERENCIA DE CLASES
 // Modificadores de acceso: PROTECTED/PROTEGIDO
 // CLASES ABSTRACTAS
 
 class Curso {
-    constructor(private readonly _id: number, private readonly _nombre: string) {}
+    constructor(private readonly _id: number, private readonly _nombre: string) { }
 
     get id() {
         return this._id;
@@ -16,7 +16,7 @@ class Curso {
 
 abstract class Escuela {
     protected cursos: Curso[] = [];
-    constructor(protected _id: number, protected _nombre: string){}
+    constructor(protected _id: number, protected _nombre: string) { }
     get id() {
         return this._id;
     }

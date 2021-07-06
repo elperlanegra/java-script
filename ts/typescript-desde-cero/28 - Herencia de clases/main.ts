@@ -4,23 +4,23 @@
 
 class Vehiculo {
 
-    private alertarSobreElTipo(){
+    private alertarSobreElTipo() {
         alert(this.tipo)
     }
-    
-    protected obtenerTipo(){
+
+    protected obtenerTipo() {
         return this.tipo;
     }
 
-    constructor(public tipo:string){
-        
+    constructor(public tipo: string) {
+
     }
 
 }
 
 class Carro extends Vehiculo {
 
-    constructor(tipo:string, public capacidad:number){
+    constructor(tipo: string, public capacidad: number) {
         super(tipo);
 
         console.log(super.obtenerTipo())

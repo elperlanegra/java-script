@@ -1,9 +1,9 @@
-export {};
+export { };
 // METODOS SET Y GET
 // ATRIBUTOS DE SOLO LECTURA: readonly
 
 class Curso {
-    constructor(private readonly _id: number, private readonly _nombre: string) {}
+    constructor(private readonly _id: number, private readonly _nombre: string) { }
 
     get id() {
         // Permite OBTENER el estado de "id"
@@ -25,7 +25,7 @@ class EscuelaDigital {
     private cursos: Curso[] = [];
 
     // Funcion que nos permite crear objetos
-    constructor(private _nombre: string) {}
+    constructor(private _nombre: string) { }
 
     public agregarCurso(curso: Curso) {
         this.cursos.push(curso);

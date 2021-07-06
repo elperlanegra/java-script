@@ -1,4 +1,4 @@
-export {};
+export { };
 
 import { Curso } from './modelo/curso';
 import { EscuelaDigital } from './modelo/escuela-digital';

@@ -5,7 +5,7 @@ const inscritos = 20;
 
 function suma(a: number, b: number) {
     return a + b;
-} 
+}
 
 const resultado = suma(2, 3);
 console.log('2+3=', resultado);
@@ -16,7 +16,7 @@ let codigo = `
     <div></div>
 `;
 
-console.log('codigo', codigo);  
+console.log('codigo', codigo);
 
 
 

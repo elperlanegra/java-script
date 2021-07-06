@@ -1,8 +1,8 @@
-export {};
+export { };
 // METODOS SET Y GET
 
 class Curso {
-    constructor(private _id: number, private _nombre: string) {}
+    constructor(private _id: number, private _nombre: string) { }
 
     get id() {
         // Permite OBTENER el estado de "id"
@@ -24,7 +24,7 @@ class EscuelaDigital {
     private cursos: Curso[] = [];
 
     // Funcion que nos permite crear objetos
-    constructor(private _nombre: string) {}
+    constructor(private _nombre: string) { }
 
     public agregarCurso(curso: Curso) {
         this.cursos.push(curso);

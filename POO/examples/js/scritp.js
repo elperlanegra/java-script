@@ -1,15 +1,13 @@
-console.log('POO con JavaScript')
+console.log('POO con JavaScript');
 
-
-let futbol = ['Barca', "Madrid", "Bayer", "PSG"]
-
-// console.log(futbol)
-
-futbol.push = ["Real Esteli", "Unan Managua", "Gualter Ferreti"]
+let futbol = ['Barca', 'Madrid', 'Bayer', 'PSG'];
 
 // console.log(futbol)
 
-futbol.forEach( (element, indice, arr) => {
-    console.log(element, indice, arr)
-})
+futbol.push = ['Real Esteli', 'Unan Managua', 'Gualter Ferreti'];
 
+// console.log(futbol)
+
+futbol.forEach((element, indice, arr) => {
+  console.log(element, indice, arr);
+});
